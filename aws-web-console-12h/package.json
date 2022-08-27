@@ -1,7 +1,7 @@
 {
   "name": "aws-web-console-12h",
   "author": "Nathaniel Felsen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create an AWS web console with a session expiration set to 12H",
   "keywords": [
     "leapp-plugin",
@@ -9,13 +9,15 @@
   ],
   "leappPlugin": {
     "supportedOS": [
-      "mac", "windows", "linux"
+      "mac",
+      "windows",
+      "linux"
     ],
     "supportedSessions": [
       "awsIamRoleFederated",
       "awsIamRoleChained",
       "awsSsoRole",
-      "aws"    
+      "aws"
     ]
   },
   "scripts": {
